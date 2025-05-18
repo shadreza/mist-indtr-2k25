@@ -10,7 +10,7 @@ fake_db: Dict[int, Item] = {}
 
 @app.get("/")
 def read_root():
-    return {"message": "FastAPI CRUD is running!"}
+    return {"message": "FastAPI CRUD is running! Happy Coding !!"}
 
 
 @app.get("/items/{item_id}")
